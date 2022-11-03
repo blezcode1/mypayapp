@@ -1,0 +1,134 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departmental Fees</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="images/flatpay logo.png" rel="shortcut icon">
+   
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <!------------ Font awesome cdn files ------------------------>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!------------ Font awesome cdn files end ------------------------>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!--------------------------------------Navbar Setion Begins----------------------->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav1">
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+      <span class="icon-bar"> </span>
+  </button>
+
+<div class="navbar-header">
+      <a href="#" class="navbar-brand"> <img src="images/flatpay.png"></a>
+</div>
+ 
+<div class="collapse navbar-collapse " id="nav1">
+  <ul class="nav navbar navbar-nav navbar-center" >
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+     
+
+      <li><a href="signup.html" class="sign-up">Sign Up</a></li>
+      <li><a href="login.html">Log In</a></li>
+
+      <div class="dropdown">
+        <button class="dropbtn"> Payment</button>
+          <div class="dropdown-content">
+              <a href="acceptance-fees.html">Acceptance Fees</a>
+              <a href="school-charges.html">School Fees</a>
+              <a href="hostel-fees.html">Hostel Fees</a>
+              <a href="#">Faculty charges</a>
+              <a href="departmental.html">Departmental Charges</a>
+              <a href="#">Course Registration</a>
+              <a href="#">Convocation Charges</a>
+          </div>
+      </div>
+
+      <!-----<li><a href="#">Payment</a></li>---->
+      
+     
+     
+  </ul>
+
+
+  <span class="search">
+      <form>
+  <input type="text" placeholder="Search FlatPay" name="search">
+  <button type="button">
+      <i class="fa fa-search"></i>
+  </button>
+
+</form>
+</span>
+
+</div>
+</div>
+</nav>
+
+<!--------------------------------------Navbar Setion Ends----------------------->
+
+
+
+
+    <section class="departmental text-center">
+        <h4>SIGN IN</h4>
+    </section>
+
+    <br><br>
+    <div class="container">
+<form action="/action_page.php">
+
+    <div class="form-group">
+        <input type="email" placeholder="Email Address"  class="form-control" id="email">
+      </div>
+
+      <div class="form-group">
+        <input type="password" placeholder="Password" class="form-control" id="pwd">
+      </div>
+   
+      <br><br><br><br>
+      <div class="buttons-form">
+    <button type="submit" class="btn btn-primary blue-color">
+      Sign In</button><br>
+     
+    </div>
+  </form>
+
+  <div class="form-group checkbox">
+          
+    <input type="checkbox"  id="remember">
+    <span>Stay logged in  </span>
+    <span><a href="#">    Forgotten Password?</a></span>
+    
+  </div>
+
+  <br>
+  <p class="text-center signup1">
+  Don't have an account? <a href="signup.html">Sign Up</a>
+  </p>
+</div>
+
+
+</body>
+</html>
